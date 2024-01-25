@@ -44,6 +44,7 @@ LD_LIBRARY_PATH
 
 ![](README.assets/Screenshot from 2023-12-27 12-14-43-1706215874021-11.png)
 
+![](README.assets/examm.png)
 
 
- 
+
