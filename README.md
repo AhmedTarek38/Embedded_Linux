@@ -2,7 +2,7 @@
 
 ## 1.1 Creating folders for the calculator and its operations
 
-![](README.assets/Screenshot from 2023-12-27 12-08-53.png)
+![](README.assets/27-12-23(1).png)
 
 ## 1.2 Creating static library 
 
@@ -16,7 +16,7 @@ gcc -c *.c
 ar rcs liboperation.a *.o
 ```
 
-![](README.assets/Screenshot from 2023-12-27 12-14-08.png)
+![](README.assets/27-12-23(2).png)
 
 ## 1.3 Link the static library 
 
@@ -26,7 +26,7 @@ Link the static library **(liboperation.a)** with the **main.c** to generate exe
 gcc -static main.c -o static -L. -loperation
 ```
 
-![](README.assets/Screenshot from 2023-12-27 12-14-25.png)
+![](README.assets/27-12-23(3).png)
 
  # 2.Creating Dynamic Library
 
@@ -42,9 +42,7 @@ gcc main.c -L. -loperation -o Dynamic
 LD_LIBRARY_PATH
 ```
 
-![](README.assets/Screenshot from 2023-12-27 12-14-43-1706215874021-11.png)
-
-![](README.assets/examm.png)
+![](README.assets/27-12-23(4).png)
 
 
 
